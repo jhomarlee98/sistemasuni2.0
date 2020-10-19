@@ -14,7 +14,7 @@
     </div>
     <div class="container text-center text-md-left mt-5">
         <div class="row mt-3">
-            <div class="col-md-10 col-lg-4 col-xl-3 mx-auto mb-4">
+            <div class="col-md-10 col-lg-4 col-xl-3 mx-auto mb-4 text-md-center text-lg-left">
                 <figure class="img-container p-2">
                     <img class="w-75" src="{{ asset('images/sistemasuniblanco.png') }}" alt="logo sistemasuni color blanco fondo transparente">
                 </figure>
@@ -23,7 +23,7 @@
                     que nos permite brindar unos de los mejores servicios de capacitación  profesional, empresarial e institucional.</p>
             </div>
 
-            <div class="col-md-10 col-lg-4 col-xl-4 mx-auto mb-4">
+            <div class="col-md-10 col-lg-4 col-xl-4 mx-auto mb-4 text-md-center text-lg-left">
 
                 <h6 class="text-uppercase font-weight-bold">PARTNERS</h6>
                 <hr class="pink darken-2 accent-2 mb-4 mt-0 d-inline-block mx-auto w-25">
@@ -40,7 +40,7 @@
                     <a href="#!">Person Vue</a>
                 </p>
             </div>
-            <div class="col-md-10 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <div class="col-md-10 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-md-center text-lg-left">
                 <h6 class="text-uppercase font-weight-bold">Contacto</h6>
                 <hr class="pink darken-2 accent-2 mb-4 mt-0 d-inline-block mx-auto w-25" >
                 <p>
