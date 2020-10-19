@@ -23,7 +23,7 @@ class CreateSpecialitiesTable extends Migration
             $table->string('image',255);
             $table->string('url',255);
             $table->string('icon',255)->default('fas fa-tools');
-            $table->enum('tipe',['cursos','workshops','certificaciones-internacionales','otro'])->default('cursos');
+            $table->enum('type',['modulo','workshops','certificaciones-internacionales','otro'])->default('modulo');
             $table->string('color',255)->default('blue');
             $table->enum('state',['active','inactive'])->default('inactive');
             $table->timestamps();
