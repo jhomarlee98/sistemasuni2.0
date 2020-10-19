@@ -30,6 +30,7 @@ class CreateSpecialitiesTable extends Migration
         });
     }
 
+
     /**
      * Reverse the migrations.
      *
