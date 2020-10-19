@@ -1,0 +1,79 @@
+$second-color-sisuni:#c32777;
+$primary-d:#161c27;
+
+
+
+@import "md-bootstrap/mdb-free";
+
+//Fuente general del sitio
+body{
+    font-family: "Montserrat", sans-serif;;
+}
+//
+.navbar .dropdown-menu a {
+    font-size: .8rem;
+}
+
+//slider-next-prev
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
+    width: 30px;
+
+    height: 30px;
+}
+//
+//boton flotante
+.card .btn-action {
+    margin-top: -1.44rem;
+    margin-bottom: -1.44rem;
+}
+.btn-floating {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    width: 47px;
+    height: 47px;
+}
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    color: #fff;
+    text-align: center;
+}
+.btn-floating i {
+    font-size: 1.25rem;
+    line-height: 47px;
+}
+//
+
+.tached{
+    text-decoration: line-through;
+}
+.text-content{
+    font-size: 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+}
+
+.bg-primary-d{
+    background-color: $primary-d;
+}
+
+.second-color{
+    background-color: $second-color-sisuni;
+}
+.pointer{
+    cursor: pointer;
+}
+
